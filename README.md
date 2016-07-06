@@ -1,5 +1,5 @@
 # sails-hook-jwt-auth
-Hook that provides jwt authentication sails-compatible scheme, such as policies, routes, controllers, services.
+Hook that provides jwt authentication sails-compatible scheme, such as policies, routes, controllers, services. I've added some more dynamic User Module control.
 
 # Installation
 Within a Sails App structure:
@@ -130,7 +130,7 @@ The POST request to this route `/login` must be sent with these body parameters:
 The POST response:
 
 ```javascript
-{ 
+{
 	user: user,
 	token: jwt_token
 }
